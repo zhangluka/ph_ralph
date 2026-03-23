@@ -1,0 +1,21 @@
+{
+  "name": "ph_ralph",
+  "version": "0.1.0",
+  "description": "Iterative CLI runner for OpenSpec tasks using Claude Code",
+  "type": "module",
+  "bin": {
+    "ph_ralph": "./bin/ph_ralph.js"
+  },
+  "scripts": {
+    "start": "node ./bin/ph_ralph.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "agent",
+    "openspec",
+    "tasks",
+    "claude"
+  ],
+  "license": "MIT"
+}
